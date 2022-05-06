@@ -1,0 +1,38 @@
+/* Created by: Graeme Barbe
+* Created on: May 05 2022
+* This CSS file defines the style for index.html
+*/
+
+/* This centers the text in the MDL header */
+.mdl-layout__header-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(1, 1, 1);
+}
+
+/* body background */
+body {
+	background-image: url('https://www.xmple.com/wallpaper/grey-green-gradient-linear-1920x1080-c2-8fbc8f-2f4f4f-a-270-f-14.svg');
+}
+
+/* Color changes */
+h1 {
+	color: rgb(255, 255, 255);
+}
+
+h5{
+	color: rgb(255, 255, 255);
+}
+
+h4{
+	color: rgb(255, 255, 255);
+}
+
+.day{
+	color: rgb(255, 255, 255);
+}
+
+.cost{
+	color: rgb(255, 255, 255);
+}
