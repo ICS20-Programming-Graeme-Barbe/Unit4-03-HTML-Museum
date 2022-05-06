@@ -54,24 +54,25 @@
 			    	<span class="mdl-textfield__error">No decimals allowed and you have to be older than 0</span>
 			  	</div>
 			</form>
-
-			<!-- Drop down menu for days of the week -->
-			<lable id="day" class="day">Enter the day</lable>
-			<select name="day" id="day">
-				<option value = "">Please select the day</option>
-				<option value = "Monday">Monday</option>
-				<option value = "Tuesday">Tuesday</option>
-				<option value = "Wednesday">Wednesday</option>
-				<option value = "Thursday">Thursday</option>
-				<option value = "Friday">Friday</option>
-				<option value = "Saturday">Saturday</option>
-				<option value = "Sunday">Sunday</option>
-			</select>
+			<form>
+				<!-- Drop down menu for days of the week -->
+				<label for="day" class="day">Enter the day</label>
+				<select name="day" id="day">
+					<option value="">Please select the day</option>
+					<option value = "Monday">Monday</option>
+					<option value = "Tuesday">Tuesday</option>
+					<option value = "Wednesday">Wednesday</option>
+					<option value = "Thursday">Thursday</option>
+					<option value = "Friday">Friday</option>
+					<option value = "Saturday">Saturday</option>
+					<option value = "Sunday">Sunday</option>
+				</select>
+			</form>
 			<br>
 
 			<!-- Submit button to submit guess -->
 			<br>
-			<button onclick="enter()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="enter()">
 			    Submit
 			</button>
 			<br>
@@ -80,7 +81,7 @@
 			<!-- Div for answers -->
 			<p>
 			 <div id="answers">
-			    <div id="cost" class="cost"</div>
+			    <div id="cost" class="cost"></div>
 			 </div>
 			</p>
 		</div>
